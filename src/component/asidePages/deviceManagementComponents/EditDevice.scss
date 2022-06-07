@@ -1,0 +1,73 @@
+.edit_device_god {
+  min-height: 60vh;
+  .input_wrapper {
+    margin-top: 1rem;
+    text-align: center;
+
+    input {
+      margin: 0.3rem;
+      width: 100%;
+    }
+    .btn_submit {
+      //   height: 2.5rem;
+    }
+  }
+  .device_data {
+    border: 1px solid black;
+    padding: 5px;
+    h5 {
+      border: 1px solid black;
+    }
+  }
+}
+// ---------------------------------------------
+
+.device_data_1,
+.device_data_2 {
+  h5 {
+    cursor: pointer;
+    &:hover {
+      text-shadow: 1px 0px 0px grey;
+    }
+  }
+}
+.device_data_1 h5:nth-child(even) {
+  background-color: aliceblue;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.device_data_1 h5 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+.device_data_1:first-child {
+  border-top: 1px solid grey;
+}
+.device_data_1:last-child {
+  border-bottom: 1px solid grey;
+}
+/* ---------------------------------------- */
+.device_data_2 h5:nth-child(even) {
+  background-color: aliceblue;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.device_data_2 h5 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  border-right: 1px solid grey;
+}
+.device_data_2:first-child {
+  border-top: 1px solid grey;
+}
+.device_data_2:last-child {
+  border-bottom: 1px solid grey;
+}
+
+//-----------------------------------

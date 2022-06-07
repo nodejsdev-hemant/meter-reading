@@ -1,0 +1,30 @@
+aside {
+  padding: 1rem 1rem;
+  position: sticky;
+  top: 1rem;
+  .aside_wrapper {
+    .selected {
+      // color: #0000ff;
+      color: #3e71cf;
+      // text-shadow: 0px 0px 16px rgba(48, 37, 195, 0.8);
+    }
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+      margin: 25px 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  aside {
+    .aside_wrapper {
+      text-align: start;
+      h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 25px 0;
+      }
+    }
+  }
+}

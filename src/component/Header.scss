@@ -1,0 +1,27 @@
+header {
+  .header_space {
+    .logo_name_wrapper {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      img {
+        width: 70px;
+      }
+      h1 {
+        font-size: 20px;
+        // white-space: nowrap;
+      }
+    }
+    .select_columns {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      select {
+        border-radius: 1rem;
+        // border: 2px solid black;
+      }
+    }
+  }
+}
